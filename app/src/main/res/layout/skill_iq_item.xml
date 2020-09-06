@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="10dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/skill_iq_badge_image_view"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:src="@android:drawable/alert_dark_frame"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp" />
+
+        <TextView
+            android:id="@+id/skill_iq_item_name_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Ahmed Hany"
+            android:textAppearance="@android:style/TextAppearance"
+            android:layout_toRightOf="@+id/skill_iq_badge_image_view"
+            android:layout_toEndOf="@+id/skill_iq_badge_image_view" />
+
+        <TextView
+            android:id="@+id/skill_iq_item_details_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="300 skill IQ Score, Egypt"
+            android:layout_toRightOf="@+id/skill_iq_badge_image_view"
+            android:textAppearance="@android:style/TextAppearance.Small"
+            android:layout_below="@+id/skill_iq_item_name_text_view"
+            android:layout_toEndOf="@+id/skill_iq_badge_image_view" />
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
